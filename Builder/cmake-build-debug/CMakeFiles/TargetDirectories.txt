@@ -1,0 +1,3 @@
+D:/CPP Projects/Patterns/Builder/cmake-build-debug/CMakeFiles/Builder.dir
+D:/CPP Projects/Patterns/Builder/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CPP Projects/Patterns/Builder/cmake-build-debug/CMakeFiles/rebuild_cache.dir

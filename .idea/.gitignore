@@ -1,0 +1,8 @@
+# Default ignored files
+/../../Patterns /.idea/shelf/
+/../../Patterns /.idea/workspace.xml
+# Editor-based HTTP Client requests
+/../../Patterns /.idea/httpRequests/
+# Datasource local storage ignored files
+/../../Patterns /.idea/dataSources/
+/../../Patterns /.idea/dataSources.local.xml
