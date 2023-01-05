@@ -18,86 +18,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e57bedc-593c-4f31-9064-0c2c00bc7609" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/AbstractFactory.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/Chair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/FurnitureFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/ModernChair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/ModernFurnitureFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/ModernSofa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/Sofa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/VictorianChair.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/VictorianFurnitureFactory.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/VictorianSofa.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/reply/cache-v2-d5cef8ad5a003b1083f4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-35cc76766f236f1d5f10.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-659a08688140e0773fa3.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/reply/index-2023-01-05T16-43-39-0072.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/reply/target-AbstractFactory-Debug-76fc5bc13aca10672e7d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ddf6853b0f9ae43977f8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AbstractFactory/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/reply/cache-v2-74883af4e1ced938fa1e.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-a9d1e305fd21466be9ba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-50456af10a168c271c4b.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/reply/index-2023-01-05T16-47-17-0217.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/reply/target-Builder-Debug-379d2903235e0fc90d88.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-ddf6853b0f9ae43977f8.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CMakeRCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdC/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/3.23.2/CompilerIdCXX/a.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Builder/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-    </list>
+    <list default="true" id="5e57bedc-593c-4f31-9064-0c2c00bc7609" name="Changes" comment="Abstract Factory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -167,8 +88,16 @@
       <option name="presentableId" value="Default" />
       <updated>1672937193874</updated>
       <workItem from="1672937195271" duration="149000" />
-      <workItem from="1672937366672" duration="5344000" />
+      <workItem from="1672937366672" duration="6304000" />
     </task>
+    <task id="LOCAL-00001" summary="Abstract Factory">
+      <created>1672943137776</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672943137776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Abstract Factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory" />
   </component>
 </project>
