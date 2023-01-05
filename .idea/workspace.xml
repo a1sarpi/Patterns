@@ -18,7 +18,9 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e57bedc-593c-4f31-9064-0c2c00bc7609" name="Changes" comment="Abstract Factory" />
+    <list default="true" id="5e57bedc-593c-4f31-9064-0c2c00bc7609" name="Changes" comment="Abstract Factory">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +90,7 @@
       <option name="presentableId" value="Default" />
       <updated>1672937193874</updated>
       <workItem from="1672937195271" duration="149000" />
-      <workItem from="1672937366672" duration="6304000" />
+      <workItem from="1672937366672" duration="6697000" />
     </task>
     <task id="LOCAL-00001" summary="Abstract Factory">
       <created>1672943137776</created>
@@ -97,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672943137776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Abstract Factory">
+      <created>1672943884143</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672943884143</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
