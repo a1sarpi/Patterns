@@ -10,7 +10,7 @@
 * [Адаптер (Adapter)](https://github.com/a1sarpi/Patterns/tree/main/Adapter)
 * [Мост (Bridge)](https://github.com/a1sarpi/Patterns/tree/main/Bridge)
 * [Компоновщик (Composite)](https://github.com/a1sarpi/Patterns/tree/main/Composite)
-* [Наблюдатель (Observer)]() 
+* [Наблюдатель (Observer)](https://github.com/a1sarpi/Patterns/tree/main/Observer) 
 
 
 ### Источники:
