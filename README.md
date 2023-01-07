@@ -9,4 +9,4 @@
 * [Одиночка (Singleton)](https://github.com/a1sarpi/Patterns/tree/main/Singleton) (недоделан)
 * [Адаптер (Adapter)](https://github.com/a1sarpi/Patterns/tree/main/Adapter)
 * [Мост (Bridge)](https://github.com/a1sarpi/Patterns/tree/main/Bridge)
-* [Компоновщик (Composite)]()
+* [Компоновщик (Composite)](https://github.com/a1sarpi/Patterns/tree/main/Composite)
