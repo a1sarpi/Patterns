@@ -11,7 +11,7 @@
 * [Мост (Bridge)](https://github.com/a1sarpi/Patterns/tree/main/Bridge)
 * [Компоновщик (Composite)](https://github.com/a1sarpi/Patterns/tree/main/Composite)
 * [Наблюдатель (Observer)](https://github.com/a1sarpi/Patterns/tree/main/Observer) 
-* [Стратегия (Strategy)]()
+* [Стратегия (Strategy)](https://github.com/a1sarpi/Patterns/tree/main/Strategy)
 
 ### Источники:
 * Пример в `Observer` взят [отсюда](https://radioprog.ru/post/1501)
