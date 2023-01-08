@@ -1,3 +1,7 @@
+#pragma once
+
+#include "Creator.hpp"
+
 /* Стратегия создания объектов
  * объекты могут создаваться с помощью
  * new
@@ -12,6 +16,7 @@ struct OpNewCreator
 {
   static T *Create()
   {
+    std::cout << "new: ";
     return new T;
   }
 };
@@ -21,6 +26,7 @@ struct MallocCreator
 {
   static T *Create()
   {
+    std::cout << "malloc: ";
     void *buf = std::malloc(sizeof(T));
     if(!buf) return nullptr;
     return new(buf) T;
@@ -32,8 +38,9 @@ struct PrototypeCreator
 {
   PrototypeCreator(T *pObj = nullptr)
     : pPrototype(pObj) {}
-  static T *Create() 
+  T *Create() 
   {
+    std::cout << "clone: ";
     if(pPrototype)
       return pPrototype->Clone();
     return nullptr;

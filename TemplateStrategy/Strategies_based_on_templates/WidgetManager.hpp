@@ -1,3 +1,5 @@
+#pragma once
+
 #include "Creator.hpp"
 
 class Widget
@@ -22,7 +24,9 @@ class WidgetManager : public CreationPolicy
    */
 public:
   WidgetManager()
-    : pWidget(Create());
+  {
+    pWidget = this->Create();
+  }
 private:
   Widget *pWidget;
 };

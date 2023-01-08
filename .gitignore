@@ -2,3 +2,8 @@
 /Builder/cmake-build-debug/
 /cmake-build-debug/
 .idea
+
+*.cmake
+*.make
+*.o
+*/CMakeFiles/*
