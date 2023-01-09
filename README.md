@@ -6,13 +6,13 @@
 * [Строитель (Builder)](https://github.com/a1sarpi/Patterns/tree/main/Builder)
 * [Фабричный Метод (Factory Method)](https://github.com/a1sarpi/Patterns/tree/main/FactoryMethod)
 * [Прототип (Prototype)](https://github.com/a1sarpi/Patterns/tree/main/Prototype)
-* [Одиночка (Singleton)](https://github.com/a1sarpi/Patterns/tree/main/Singleton) (недоделан)
+* [Одиночка (Singleton)](https://github.com/a1sarpi/Patterns/tree/main/Singleton) (теперь вроде доделан)
 * [Адаптер (Adapter)](https://github.com/a1sarpi/Patterns/tree/main/Adapter)
 * [Мост (Bridge)](https://github.com/a1sarpi/Patterns/tree/main/Bridge)
 * [Компоновщик (Composite)](https://github.com/a1sarpi/Patterns/tree/main/Composite)
 * [Наблюдатель (Observer)](https://github.com/a1sarpi/Patterns/tree/main/Observer) 
 * [Стратегия (Strategy)](https://github.com/a1sarpi/Patterns/tree/main/Strategy)
-* Шаблонная Стратегия (Template Strategy) (я не сделал)
+* Шаблонная Стратегия (Template Strategy) (есть версия в папке Strategy от Андрея, есть отдельная папка - от Саши)
 
 ### Источники:
 * Пример в `Observer` взят [отсюда](https://radioprog.ru/post/1501)
