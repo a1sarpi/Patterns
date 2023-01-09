@@ -1,6 +1,8 @@
 #pragma once
+
 #include <iostream>
 #include <list>
+#include <algorithm>
 #include "Subscriber.h"
 
 using std::cout, std::endl, std::list;
@@ -24,30 +26,25 @@ public:
     }
 
     void notify() {
-        list<Subscriber *>::iterator iterator =
-        list_of_subscribers.begin();
         howManyObserver();
-        while (iterator != list_of_subscribers.end()) {
-            (*iterator)->update(message);
-            ++iterator;
+        for (const auto &subscriber: list_of_subscribers) {
+            subscriber->update(message);
         }
     }
 
-    void createMessage(string message = "Empty") {
-        this->message = message;
+    void createMessage(const string &new_message = "Empty") {
+        message = new_message;
         notify();
     }
 
     void howManyObserver() {
         cout << "There are " << list_of_subscribers.size() <<
-                                  " observers in the list" << endl;
+             " observers in the list" << endl;
 
     }
 
     void businessNotificationLogic() {
-        this->message = "change message message";
-        notify();
         cout << "I'm about to do something important" << endl;
+        createMessage("important business message");
     }
-
 };

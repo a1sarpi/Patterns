@@ -6,16 +6,16 @@ class ConcreteSubscriber : public Subscriber {
 private:
     string m_message_from_publisher;
     Publisher &mPublisher;
-    static int static_number;
+    static int subscriptions_count;
     int number;
 
 public:
     ConcreteSubscriber(Publisher &publisher) : mPublisher(publisher) {
         this->mPublisher.attach(this);
         cout << "Hi, I'm the Subscriber \""
-             << ++ConcreteSubscriber::static_number
+             << ++ConcreteSubscriber::subscriptions_count
              << "\"." << endl;
-        this->number = ConcreteSubscriber::static_number;
+        this->number = ConcreteSubscriber::subscriptions_count;
     }
 
     ~ConcreteSubscriber() override {
@@ -42,4 +42,4 @@ public:
 
 };
 
-int ConcreteSubscriber::static_number = 0;
+int ConcreteSubscriber::subscriptions_count = 0;
