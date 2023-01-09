@@ -30,6 +30,7 @@ public:
         for (auto s: shapes) {
             shapesCopy->push_back(s->clone());
         }
+        shapes.insert(shapes.end(), shapesCopy->begin(), shapesCopy->end());
     }
 
     void app_info() {

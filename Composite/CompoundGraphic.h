@@ -2,6 +2,7 @@
 #include "Graphic.h"
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 using std::vector, std::cout, std::endl;
 
@@ -16,7 +17,9 @@ public:
     }
 
     void remove(Graphic *child) {
-        std::remove(children.begin(), children.end(),child);
+        auto it = std::find(children.begin(), children.end(), child);
+        if (it != children.end())
+            children.erase(it);
     }
 
     void move(int dX, int dY) override {
@@ -25,8 +28,12 @@ public:
         }
     }
 
-    void draw() {
-        cout << "Drawing graphic and components" << endl;
+    void draw() override {
+        cout << "Drawing group" << endl;
+        for (auto item: children) {
+            item->draw();
+        }
+        cout << "----------------" << endl;
     }
 
 };

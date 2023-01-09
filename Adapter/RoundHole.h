@@ -15,7 +15,7 @@ public:
     }
 
     bool fits(RoundPeg *peg) const {
-        return (this->getRadius() >= peg->getRadius());
+        return this->getRadius() >= peg->getRadius();
     }
 
 };

@@ -15,13 +15,15 @@ public:
         publisher->createMessage("Hello World!");
         subscriber3->removeMeFromTheList();
 
+        publisher->businessNotificationLogic();
+
         publisher->createMessage("Are you ready for exam, fellas?");
         subscriber4 = new ConcreteSubscriber(*publisher);
 
         subscriber2->removeMeFromTheList();
         subscriber5 = new ConcreteSubscriber(*publisher);
 
-        publisher->createMessage("I've got fucking tired doing this examples");
+        publisher->createMessage("I've got tired doing this examples");
         subscriber5->removeMeFromTheList();
 
         subscriber4->removeMeFromTheList();
